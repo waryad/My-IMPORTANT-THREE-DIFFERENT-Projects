@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(9, 250, 29)">
+    <script>
+
+ do{
+    var input =prompt("Press1 for ROCK,\n Press 2 for paper,\n Press 3 for Scissor.");
+     if(input<1||input>3)
+     {
+        var input =prompt("Press1 for ROCK,\n Press 2 for paper,\n Press 3 for Scissor.");
+     }
+         
+    else 
+    (input==1||input==2||input==3) 
+       var computer=parseInt(1+(Math.random()*3));
+    
+         console.log(computer);
+         console.log(input);
+
+         if(computer==1&&input==1){
+         alert("You picked ROCK."+"  Computer picked ROCK."+"  Its a tie."+" "+" Computer : "+computer+" "+" You :  "+input) 
+        var returnValue = confirm("Do you want to continue?");
+        }
+        if(computer==2&&input==2){
+         alert("You picked PAPER.  "+" Computer picked PAPER."+"  Its a tie."+" "+" Computer : "+computer+" "+" You :  "+input) 
+        var returnValue = confirm("Do you want to continue?");
+        }
+        if(computer==3&&input==3){
+         alert("You picked SCISSOR.  "+"  Computer picked SCISSOR."+"  Its a tie."+" "+"  Computer : "+computer+" "+" You :  "+input) 
+        var returnValue = confirm("Do you want to continue?");
+        }
+         if(computer==1&&input==2)
+        {
+        alert("You picked PAPER.  "+"  Computer picked ROCK. "+"  You win."+" "+"  Computer : "+computer+" "+"  You :  "+input)
+         var returnValue = confirm("Do you want to continue?");
+        }
+         if (computer==1&&input==3)
+         {
+            alert("You picked SCISSOR.  "+" Computer picked ROCK.  "+"  You loose."+" "+" Computer : "+computer+" "+" You :  "+input)
+            var returnValue = confirm("Do you want to continue?");
+        }
+        if(computer==2&&input==1)
+        {
+            alert("You picked ROCK. "+"  Computer picked PAPER. "+"  You loose."+" "+" Computer : "+computer+" "+" You :  "+input)
+            var returnValue = confirm("Do you want to continue?");
+        }
+        if(computer==2&&input==3)
+        {
+           alert("You picked SCISSOR. "+"  Computer picked PAPER."+"  You win."+" "+" Computer : "+computer+" "+" You :  "+input)
+           var returnValue = confirm("Do you want to continue?");
+        }
+        if(computer==3&&input==1)
+        {
+           alert("You picked ROCK.  "+"  Computer picked SCISSIOR. "+"  You loose."+" "+" Computer : "+computer+" "+" You :  "+input)
+           var returnValue = confirm("Do you want to continue?");
+        }
+        if(computer==3&&input==2)
+        {
+            alert("You picked PAPER. "+" Computer picked SCISSIOR." +" You loose"+" "+" Computer : "+computer+" "+" You :  "+input)
+            var returnValue = confirm("Do you want to continue?");
+        }
+    }
+     while(returnValue==true);
+        if (input>computer)
+       var result="you win!!"
+        else
+        {
+          result= "you loose" 
+        }
+        if ((!returnValue==true))
+        {
+            alert("Final score:   "+" "+"Computer : "+computer+" "+" You :  "+input+" "+" "+result);
+        }
+       </script>  
+ <button  onclick="document.location='index.html'" style="background-color:rgb(255, 0, 140); border-color:rgb(255, 0, 136); color:white;height: 100px; width: 100px;" >EXIT</button>
+            
+</body>
+</html>

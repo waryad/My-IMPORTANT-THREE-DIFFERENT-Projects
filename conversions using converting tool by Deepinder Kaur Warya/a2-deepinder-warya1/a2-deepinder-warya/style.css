@@ -1,0 +1,110 @@
+H1 {  
+  border-color: blue;  
+  background-color: rgb(55, 0, 255);
+  border-style: solid; 
+  text-align: center; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: rgb(217, 0, 255);
+  background-image: url("A.jpeg")
+  }  
+  body { 
+    background-image: url("P.JPEG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+  }
+
+  #p1 
+  {   
+  color:brown; 
+ background-color:chocolate;
+  text-align: center; 
+  font-size:x-large;  
+  width: 150px;
+ }
+ #p2 
+ {   
+ color:rgb(165, 42, 42); 
+ background-color: rgb(255, 0, 179);
+ text-align: center;   
+ font-size: x-large; 
+ width: 150px;
+}
+#p3 
+  {   
+  color:brown; 
+ background-color: rgb(255, 145, 0);
+  text-align: center; 
+  font-size: x-large; 
+  width: 150px;  
+ }
+ #p4
+  {   
+  color:black; 
+  background-color: rgba(183, 0, 255, 0.918);
+  text-align: center;  
+  font-size: x-large; 
+  width: 150px; 
+ }
+ #p5
+ {   
+ color:black; 
+ background-color: rgba(255, 136, 0, 0.842);
+ text-align: center;   
+ font-size: x-large;
+ width: 150px; 
+}
+#p6
+ {   
+ color:rgb(165, 42, 58); 
+ background-color:aqua;
+ text-align: center;
+ font-size: x-large;   
+ width: 150px; 
+}
+#p7
+ {   
+ color:rgb(165, 42, 42); 
+ background-color:chartreuse;
+ text-align: center;   
+ font-size: x-large; 
+ width: 150px;
+}
+#p8
+ {   
+ color:black; 
+ background-color:crimson;
+ text-align: center;   
+ font-size: x-large; 
+ width: 150px;
+}
+ .a
+ {
+  background-color: #aa1d04; 
+  border: 1px solid rgb(0, 55, 128);
+  color: white; 
+  padding: 10px 24px; 
+  cursor:pointer;
+  float:left;
+ }
+ .textbox
+ {
+   text-align:center;
+ }
+ #number
+ {
+   background-color: rgb(250, 192, 255);
+   width: 200px; height: 40px;
+   border:2px solid rgb(139, 0, 0);
+ }
+.focus
+{
+  background-color: yellow;
+  border:2px solid darkblue;
+}
+.container
+{
+text-align: center;
+}
